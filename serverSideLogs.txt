@@ -1,0 +1,9 @@
+Web socket server running on PORT 5000
+New client connection
+Client sent the following data { dataID: 10, message: 'Connection Established' }
+Client disconnected
+New client connection
+Client sent the following data { dataID: 10, message: 'Connection Established' }
+Client disconnected
+New client connection
+Client sent the following data { dataID: 10, message: 'Connection Established' }

@@ -1,0 +1,30 @@
+{
+  "name": "web-sockets",
+  "version": "1.0.0",
+  "description": "Web sockets basics",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon index.js",
+    "start": "cp /dev/null serverSideLogs.txt && node index.js >> serverSideLogs.txt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarkMortal/Websockets-Basics.git"
+  },
+  "keywords": [
+    "websockets"
+  ],
+  "author": "Saptarshi Dey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DarkMortal/Websockets-Basics/issues"
+  },
+  "homepage": "https://github.com/DarkMortal/Websockets-Basics#readme",
+  "dependencies": {
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
