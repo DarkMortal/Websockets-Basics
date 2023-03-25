@@ -1,4 +1,4 @@
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 const WBS = require('ws');
 const WSS = new WBS.Server({ port: PORT }, () => {
